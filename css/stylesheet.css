@@ -6,7 +6,8 @@
 }
 
 body {
-    background-image: url("../images/supreme.jpg");
+    /* background-image: url("../images/supreme.jpg"); */
+    background-color: #DEE4EA;
     background-repeat: repeat;
     background-size: 50%;
 
