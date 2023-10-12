@@ -161,7 +161,7 @@
           />
           <div class="invalid-feedback">Please provide a valid zip.</div>
         </div>
-        <hr>
+        <hr />
         <div class="col-12">
           <div class="form-check">
             <input
@@ -221,9 +221,61 @@
         </div>
       </form>
       <hr />
-   
+
       <form class="row g-3 needs-validation" novalidate>
         <h2 class="text-center">Payment Information</h2>
+        <div class="footer">
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio1"
+              autocomplete="off"
+              checked=""
+            />
+            <label class="btn btn-outline-secondary" for="btnradio1"
+              >Credit Card</label
+            >
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio2"
+              autocomplete="off"
+              checked=""
+            />
+            <label class="btn btn-outline-secondary" for="btnradio2"
+              >Debit Card</label
+            >
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio3"
+              autocomplete="off"
+              checked=""
+            />
+            <label class="btn btn-outline-secondary" for="btnradio3"
+              >Paypal</label
+            >
+            <input
+              type="radio"
+              class="btn-check"
+              name="btnradio"
+              id="btnradio4"
+              autocomplete="off"
+              checked=""
+            />
+            <label class="btn btn-outline-secondary" for="btnradio4"
+              >Zelle</label
+            >
+          </div>
+        </div>
         <div class="col-md-5">
           <label for="validationCustom01" class="form-label"></label>
           <input
@@ -268,10 +320,51 @@
           />
           <div class="valid-feedback">Looks good!</div>
         </div>
-        <hr>
+        <hr />
         <div class="col-12 text-center">
-            <button class="btn btn-primary" type="submit">Continue to checkout</button>
-          </div>
+          <button class="btn btn-primary" type="submit">
+            Continue to checkout
+          </button>
+        </div>
+        <hr />
+
+        <table class="table">
+          <thead>
+            <tr>
+              <!-- <th scope="col">#</th> -->
+              <th scope="col">Item</th>
+              <th scope="col">Price</th>
+              <th scope="col">Remove Item</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- <th scope="row">1</th> -->
+              <td>Rolex Submariner</td>
+              <td>$28,500.00</td>
+              <td><button class="btn btn-danger">Remove</button></td>
+            </tr>
+            <tr>
+              <!-- <th scope="row">2</th> -->
+              <td>Ray-Ban Classic Wayfarer</td>
+              <td>$190.00</td>
+              <td><button class="btn btn-danger">Remove</button></td>
+            </tr>
+            <tr>
+              <!-- <th scope="row">3</th> -->
+              <td>Stan Smiths | Classic</td>
+              <td>$100.00</td>
+              <td><button class="btn btn-danger">Remove</button></td>
+            </tr>
+            <tr>
+                <!-- <th></th> -->
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Total: $28,790.00</td>
+            </tr>
+          </tbody>
+        </table>
       </form>
 
       <!-- start table here -->
