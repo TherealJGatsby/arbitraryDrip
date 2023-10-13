@@ -1,4 +1,4 @@
-# ArbitraryDrip
+# Arbitrary Drip
 
 Arbitray Drip is an E-commerce website that sells random products and can range from anything that your mind can fathom. It is based on the concept of Clout. Clout /klout/ noun. influence or power, especially in politics or business.
 
@@ -52,4 +52,3 @@ Lastly I have added a form and table to where the user can input needed informat
  [Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/#inline-forms)
  [Box Icons](https://boxicons.com/)
 
- 
